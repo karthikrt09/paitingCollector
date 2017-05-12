@@ -13,6 +13,8 @@
 		F53DEA361EC63F0700699941 /* paintingCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F53DEA341EC63F0700699941 /* paintingCollector.xcdatamodeld */; };
 		F53DEA381EC63F0700699941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53DEA371EC63F0700699941 /* Assets.xcassets */; };
 		F53DEA3B1EC63F0700699941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53DEA391EC63F0700699941 /* LaunchScreen.storyboard */; };
+		F53DEA431EC64EA500699941 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F53DEA421EC64EA500699941 /* 2.jpg */; };
+		F53DEA451EC650E900699941 /* PaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53DEA441EC650E900699941 /* PaintingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F53DEA371EC63F0700699941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F53DEA3A1EC63F0700699941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F53DEA3C1EC63F0700699941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53DEA421EC64EA500699941 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		F53DEA441EC650E900699941 /* PaintingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		F53DEA2C1EC63F0700699941 /* paintingCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F53DEA421EC64EA500699941 /* 2.jpg */,
 				F53DEA2D1EC63F0700699941 /* AppDelegate.swift */,
 				F53DEA2F1EC63F0700699941 /* ViewController.swift */,
+				F53DEA441EC650E900699941 /* PaintingViewController.swift */,
 				F53DEA311EC63F0700699941 /* Main.storyboard */,
 				F53DEA371EC63F0700699941 /* Assets.xcassets */,
 				F53DEA391EC63F0700699941 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 			files = (
 				F53DEA3B1EC63F0700699941 /* LaunchScreen.storyboard in Resources */,
 				F53DEA381EC63F0700699941 /* Assets.xcassets in Resources */,
+				F53DEA431EC64EA500699941 /* 2.jpg in Resources */,
 				F53DEA331EC63F0700699941 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53DEA451EC650E900699941 /* PaintingViewController.swift in Sources */,
 				F53DEA361EC63F0700699941 /* paintingCollector.xcdatamodeld in Sources */,
 				F53DEA301EC63F0700699941 /* ViewController.swift in Sources */,
 				F53DEA2E1EC63F0700699941 /* AppDelegate.swift in Sources */,
